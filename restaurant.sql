@@ -7,4 +7,6 @@ CREATE TABLE restaurant (
     does_takeout boolean DEFAULT FALSE,
     last_visit DATE 
 );
-
+INSERT INTO restaurant VALUES(
+    DEFAULT, 'Busy Boy', 5, 5, 'Mediterranean', 'True', '2020-5-3'
+);
