@@ -13,3 +13,4 @@ INSERT INTO restaurant VALUES
     (DEFAULT, 'Royal Restaurant', 20, 3, 'Mediterranean', 'True', '2002-5-4');
 
 
+SELECT * FROM restaurant WHERE stars= 5; 
